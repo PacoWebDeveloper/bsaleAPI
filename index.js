@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 var app = require('./app');
-var port = 3700;
+var port = process.env.PORT || 3700;
 
 /* var con = mysql.createConnection({
             host: "mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com",
