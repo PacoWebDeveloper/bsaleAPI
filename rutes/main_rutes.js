@@ -10,5 +10,6 @@ const pool = require('../database/database');
 router.get('/test', main_controller.test);
 router.get('/getAllProducts', main_controller.getAllProducts);
 router.get('/getProductsByName', main_controller.selectProductByName);
+router.get('/getProductsByCategory', main_controller.selectProductByCategory);
 
 module.exports = router;
